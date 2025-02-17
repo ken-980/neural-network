@@ -9,7 +9,7 @@ class neuralNetwork:
         #learning rate
         self.lr = learningrate
 
-        # link weight matrics,wih : w_input_to_hidden_layer
+        # link weight matrices,wih : w_input_to_hidden_layer
         # who: w_hidden_to_output_layer
         self.wih = (np.random.rand(self.hnodes, self.inodes) - 0.5)
         self.who = (np.random.rand(self.onodes, self.hnodes) - 0.5)
